@@ -44,7 +44,7 @@ export default defineConfig({
       'input-base': 'p2 rounded w-full bg-transparent border border-dark input-base-focus input-base-disabled',
       'input-error': 'border-$c-error focus:(outline-offset-0 outline-$c-error outline-1px)',
 
-      'link': '!text-gray-400 hover:(!text-gray-700 dark:!text-gray-200) cursor-pointer font-light',
+      'link': '!text-gray-400 dark:!text-gray-300 hover:(!text-gray-700 dark:!text-gray-200) cursor-pointer font-light',
     },
   ],
   theme: {

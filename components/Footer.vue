@@ -8,7 +8,7 @@
     </div>
 
     <small mt-2 flex justify-between>
-      <div text-gray-400>
+      <div text-gray-400 dark:text-gray-300>
         <time>2023</time> © <a href="https://beian.miit.gov.cn/" target="_blank" link>苏ICP备2023051139号</a>
       </div>
       <DarkToggle />
