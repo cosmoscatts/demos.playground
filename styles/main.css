@@ -1,0 +1,65 @@
+html,
+body,
+#__nuxt {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-feature-settings: "cpsp" 1,"dlig" 1,"cv01" 1,"cv02","cv03" 1,"cv04" 1,"liga","clig","calt";
+  font-variation-settings: "wght" 450;
+  font-variant: common-ligatures contextual;
+  --apply-at: text-base font-mono;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0 1rem;
+  overflow: hidden auto;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html {
+  background-color: var(--c-bg-base);
+}
+
+@font-face {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/FiraCode-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fira Code Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/FiraCode-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Erode italic var";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Erode-VariableItalic.woff2") format("woff2");
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar:horizontal {
+  height: 6px;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background: var(--c-bg-base);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--c-scrollbar);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--c-scrollbar-hover);
+}
