@@ -49,8 +49,8 @@ export default defineConfig({
   ],
   theme: {
     fontFamily: {
-      mono: 'Fira Code',
-      light: 'Fira Code Light',
+      mono: 'Fira Code, LXGW WenKai',
+      light: 'Fira Code Light, LXGW WenKai',
     },
   },
   presets: [

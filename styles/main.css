@@ -25,24 +25,38 @@ html {
 }
 
 @font-face {
-  font-family: "Fira Code";
+  font-family: 'Fira Code';
   font-style: normal;
   font-weight: normal;
-  src: url("/fonts/FiraCode-Regular.woff2") format("woff2");
+  src: url('/fonts/FiraCode-Regular.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: "Fira Code Light";
+  font-family: 'Fira Code Light';
   font-style: normal;
   font-weight: normal;
-  src: url("/fonts/FiraCode-Light.woff2") format("woff2");
+  src: url('/fonts/FiraCode-Light.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: "Erode italic var";
+  font-family: 'Erode italic var';
   font-style: normal;
   font-weight: normal;
-  src: url("/fonts/Erode-VariableItalic.woff2") format("woff2");
+  src: url('/fonts/Erode-VariableItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'LXGW WenKai';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/lxgw-wenkai-regular.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'LXGW WenKai';
+  font-style: normal;
+  font-weight: bold;
+  src: url('/fonts/lxgw-wenkai-bold.ttf') format('opentype');
 }
 
 ::-webkit-scrollbar {
