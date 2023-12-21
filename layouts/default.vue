@@ -1,5 +1,5 @@
 <template>
-  <main flex="~ col" mx-a h-full max-w-40rem min-h-screen py-128px pt-80px>
+  <main flex="~ col" mx-a h-full max-w-40rem min-h-screen py-128px pt-80px px-40px>
     <div mb-2.4rem w-full text-lg font-bold>
       Demos
     </div>
