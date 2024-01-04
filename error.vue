@@ -4,6 +4,16 @@ defineProps({
 })
 
 const handleError = () => clearError({ redirect: '/' })
+
+onMounted(() => {
+  const html = document.querySelector('html')
+  if (!html)
+    return
+  if (isDark.value)
+    html.classList.add('dark')
+  else
+    html.classList.remove('dark')
+})
 </script>
 
 <template>
