@@ -19,12 +19,12 @@
 @keyframes slide-enter {
   0% {
     transform: translateY(10px);
-    opacity: 0
+    opacity: 0;
   }
 
   to {
     transform: translateY(0);
-    opacity: 100
+    opacity: 1;
   }
 }
 
@@ -59,4 +59,22 @@
   .slide-enter-content > *:nth-child(18) { --enter-stage: 18; }
   .slide-enter-content > *:nth-child(19) { --enter-stage: 19; }
   .slide-enter-content > *:nth-child(20) { --enter-stage: 20; }
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-old(root) {
+  z-index: 1;
+}
+::view-transition-new(root) {
+  z-index: 9999;
+}
+.dark::view-transition-old(root) {
+  z-index: 9999;
+}
+.dark::view-transition-new(root) {
+  z-index: 1;
 }

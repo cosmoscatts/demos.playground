@@ -22,6 +22,7 @@ html.dark {
 
 html {
   background-color: var(--c-bg-base);
+  color: var(--c-text-base);
 }
 
 @font-face {

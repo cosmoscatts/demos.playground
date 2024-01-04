@@ -1,6 +1,7 @@
 import 'vue-router'
 
 export default defineNuxtConfig({
+  ssr: false,
   app: {
     pageTransition: {
       name: 'slide',
@@ -30,7 +31,7 @@ export default defineNuxtConfig({
   ],
   router: {
     options: {
-      hashMode: true,
+      hashMode: false,
       scrollBehaviorType: 'smooth',
     },
   },

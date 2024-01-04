@@ -37,6 +37,7 @@ export default defineConfig({
       // buttons
       'btn-base': 'cursor-pointer disabled:pointer-events-none disabled:bg-$c-bg-btn-disabled disabled:text-$c-text-btn-disabled',
       'btn-danger': 'btn-base px-4 py-2 rounded text-white bg-$c-danger hover:bg-$c-danger-active',
+      'btn-solid': 'btn-base px-4 py-2 rounded !text-$c-text-btn bg-teal-700 hover:bg-teal-800',
 
       // input
       'input-base-focus': 'focus:outline-none',
